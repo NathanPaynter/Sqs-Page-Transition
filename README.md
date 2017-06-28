@@ -3,13 +3,13 @@ Squarespace Page Transitions
 
 >Easy to add fading page transitions using LESS and jQuery. Specifically targeted to work with Squarespace templates in both the Consumer and Developer Platforms.
 
-## Setup
+# Setup
 
 __IMPORTANT NOTE:__ It is recommended to turn off AJAX Loading if your template has it, as it may cause issues with the page fading. These page transitions are intended to give sites without AJAX Loading a smoother page transition.
 
-### Consumer Platform
+## Consumer Platform
 
-#### Add files
+### Add files
 
 To get started, click the <code>+</code> icon next to any navigation heading like you would to add a new page and click the 'Link' option (_See Figure 1_). Then Click the 'Click to add URL...' and then click 'Files'. You should see what's depicted in _Figure 2_. Add the two files from the scripts folder of this repo here. Remember the URL that each file receives as we'll use this later (_See Figure 3_).  
 
@@ -17,11 +17,11 @@ If you don't change the filenames, the URL's should be as follows
   * /s/jquery-3-1-1-min.js
   * /s/page-trans.js
 
-#### Add Styling
+### Add Styling
 
 Go to the Design > Custom CSS Panel. Copy the code from styles/page-trans.less into the panel and click Save. (_See Figure 4 & 5_)  
 
-#### Code Injection
+### Code Injection
 
 Go to Settings > Advanced > Code Injection and add the following to the Footer injection area (_See Figure 6_).\*  
 
@@ -32,7 +32,7 @@ Click save and everything should be working!
 
 _\*If you changed the filenames for the javascript files, be sure to use those in the <code>src=""</code>_
 
-##### Example images
+#### Example images
 
 | ![figure1](https://github.com/NathanPaynter/Sqs-Page-Transition/raw/master/tutorial/img/figure1.png "Figure 1") | ![figure2](https://github.com/NathanPaynter/Sqs-Page-Transition/raw/master/tutorial/img/figure2.png "Figure 2") | ![figure3](https://github.com/NathanPaynter/Sqs-Page-Transition/raw/master/tutorial/img/figure3.png "Figure 3") |
 | ------------- | -------------------- | ---------------- |
@@ -42,8 +42,8 @@ _\*If you changed the filenames for the javascript files, be sure to use those i
 | ------------- | -------------------- | ---------------- |
 | Figure 4 | Figure 5 | Figure 6 |
 
-### Developer Platform
+## Developer Platform
 
-## Usage
+# Usage
 
 If you'd like to adjust the timing of the fade, simply edit <code>@pageTransitionTime: 800ms</code> to be any millisecond (ms) or second (s) timing in the Custom CSS Panel [For Consumer Platform] or the page-trans.less file [For Developer Mode].
