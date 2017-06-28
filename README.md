@@ -5,6 +5,8 @@ Squarespace Page Transitions
 
 ## Setup
 
+__IMPORTANT NOTE:__ It is recommended to turn off AJAX Loading if your template has it, as it may cause issues with the page fading. These page transitions are intended to give sites without AJAX Loading a smoother page transition.
+
 ### Consumer Platform
 
 #### Add files
@@ -44,3 +46,4 @@ _\*If you changed the filenames for the javascript files, be sure to use those i
 
 ## Usage
 
+If you'd like to adjust the timing of the fade, simply edit <code>@pageTransitionTime: 800ms</code> to be any millisecond (ms) or second (s) timing in the Custom CSS Panel [For Consumer Platform] or the page-trans.less file [For Developer Mode].
