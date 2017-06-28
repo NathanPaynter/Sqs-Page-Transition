@@ -17,7 +17,7 @@ If you don't change the filenames, the URL's should be as follows
 
 #### Add Styling
 
-Go to the Design > Custom CSS Panel. Copy the code from styles/page-trans.less into the panel and click Save. _See Figure 4 & 5_  
+Go to the Design > Custom CSS Panel. Copy the code from styles/page-trans.less into the panel and click Save. (_See Figure 4 & 5_)  
 
 #### Code Injection
 
