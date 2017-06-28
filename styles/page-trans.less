@@ -1,0 +1,16 @@
+//Include this mixin if adding to the Custom CSS Panel
+.transition(@trans) {
+  -webkit-transition: @trans;
+  transition: @trans;
+}
+
+@pageTransitionTime: 800ms; //Can be either in ms (milliseconds) or s (seconds)
+body {
+  opacity: 0; //Set body to load as transparent
+  .transition(opacity @pageTransitionTime ease-in-out);
+  &.sqs-edit-mode {
+    //Make sure body is always visible in edit mode
+    //even if script doesn't run
+    opacity: 1 !important;
+  }
+}
