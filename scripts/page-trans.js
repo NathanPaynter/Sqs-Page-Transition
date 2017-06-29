@@ -1,3 +1,10 @@
+/*!
+ * Sqs-Page-Transition
+ * Easy to add fading page transitions.
+ * v1.0.1
+ * License : MIT
+ * Author : Nathan Paynter (http://github.com/NathanPaynter)
+ */
 $( function() {
   $( 'body' ).css( 'opacity', '1' ); // Show body on load
 } );
