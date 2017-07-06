@@ -6,7 +6,7 @@ Squarespace Page Transitions
 
 # Setup
 
-__IMPORTANT NOTE:__ It is recommended to turn off AJAX Loading if your template has it, as it may cause issues with the page fading. These page transitions are intended to give sites without AJAX Loading a smoother page transition.
+__IMPORTANT NOTE:__ It is recommended to use AJAX loading if your template has it for the best user experience. This solution is designed for templates that don't currently have AJAX Loading.
 
 ## Consumer Platform
 
