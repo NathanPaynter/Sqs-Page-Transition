@@ -1,5 +1,6 @@
 Squarespace Page Transitions
 -----------------------------
+>UPDATE: This project is now archived. We recommend using a new template with AJAX if you're looking for smooth page transitiongs within the Squarespace CMS. If you have questions about making custom scripts work feel free to email us at info@whitewolfwebsites.ca and we'll help if we can. Please note that not all custom scripts are guaranteed to work with AJAX so there is a possibility that we can't help. Thank you! - Nathan, White Wolf Websites
 
 >Easy to add fading page transitions using LESS and jQuery. Specifically targeted to work with Squarespace templates in both the Consumer and Developer Platforms.  
 >v.1.0.1
